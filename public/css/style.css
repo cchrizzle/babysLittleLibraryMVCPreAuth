@@ -1,0 +1,57 @@
+body {
+    color: #89cff0;
+    background-color: #917974;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#headerIcon {
+    width: 2.5rem;
+    padding-right: 5px;
+    height: auto;
+}
+
+/* h1 {
+    color: #89cff0;
+} */
+
+.bookTitle {
+    font-weight: bold;
+}
+
+.authorName {
+    font-style: italic;
+}
+
+.finishedBooks {
+    color: #89f090;
+}
+.finishedBookList {
+    color: #89f090;
+}
+
+/* Layout */
+#bookLists {
+    display: flex;
+    flex-direction: row;
+}
+
+.formContainer {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Icons */
+.fa-trash {
+    padding-left: 10px;
+}
+
+.unbutton {
+    padding: 0;
+    border: none;
+    background: none;
+}
