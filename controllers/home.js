@@ -1,5 +1,4 @@
 const Book = require('../models/Book');
-const User = require('../models/User');
 
 module.exports = {
     getIndex: async (req, res) => {

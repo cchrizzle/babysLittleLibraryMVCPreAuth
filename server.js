@@ -1,7 +1,5 @@
 const express = require('express');
 const app = express();
-const mongoose = require('mongoose');
-const MongoStore = require('connect-mongo');
 const methodOverride = require('method-override');
 const connectDB = require('./config/database');
 

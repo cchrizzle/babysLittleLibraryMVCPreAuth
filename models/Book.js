@@ -19,10 +19,6 @@ const BookSchema = new mongoose.Schema({
     favorite: {
         type: Boolean,
     },
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'User',
-    },
     dateAdded: {
         type: Date,
         default: Date.now,
